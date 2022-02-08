@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="slyles.css">
+    <title>Borne de AFPA</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            
+                <header>
+                    <div class="col-2">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <img src="afpa-logo.jpg" alt="Logo AFPA" >
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <h1>
+                                    AGENCE NATIONALE POUR LA FORMATION
+                                    PROFESSIONNELLE DES ADULTES
+                                </h1>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <h2>
+                                    FORMULAIRE D'INSCRIPTION POUR LE NOUVEAU STAGIAIRE
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            
+        </div>
+        <main>
+            <form>
+                <div>
+                    <h3>
+                        . Choisissez votre centre AFPA
+                    </h3>
+                    <select name="CENTRE AFPA">
+                        <option value="CENTRE AFPA LIMOGES ROMANET"> CENTRE AFPA LIMOGES ROMANET </option>
+                        <option value="CENTRE AFPA BRIVE"> CENTRE AFPA BRIVE</option>
+                        <option value="CENTRE AFPA LIMOGES BABYLONE"> CENTRE AFPA LIMOGES BABYLONE</option>
+                        <option value="CENTRE AFPA NICE"> CENTRE AFPA NICE</option>
+                        <option value="CENTRE AFPA BORDEAUX"> CENTRE AFPA BORDEAUX</option>
+                        <option value="CENTRE AFPA ANGOULEME"> CENTRE AFPA ANGOULEME</option>
+                        <option value="CENTRE AFPA LYON"> CENTRE AFPA LYON</option>
+                        <option value="CENTRE AFPA MARSEILLE"> CENTRE AFPA MARSEILLE</option>
+                    </select>
+                </div>
+                <br>
+                <div class="row">
+                    <h3>
+                        . Civilité:
+                    </h3>
+                    <input type="radio" value="HOMME" name="sexe">HOMME
+                    <br>
+                    <input type="radio" value="FEMME" name="sexe">FEMME
+                </div>
+                <br>
+                <div>
+                    <label for="Nom">Nom</label>
+                    .<input id="Nom" type="text" name="Nom" placeholder="Veuillez entrer votre Nom">
+                </div>
+                <br>
+                <div>
+                    <label for="Prenom">Prenom</label>
+                    .<input id="Prenom" type="text" name="Prenom" placeholder="Veuillez entrer votre Prenom">
+                </div>
+                <br>
+                <div>
+                    <label for="date de naissance">Date de naissance</label>
+                    .<input id="date de naissance" type="text" name="Date de naissance"
+                        placeholder="Veuillez entrer votre date de naissance ">
+                </div>
+                <br>
+                <div>
+                    <label for="nationalité">nationalité</label>
+                    .<input id="nationalité" type="text" name="nationalité"
+                        placeholder="Veuillez entrer votre nationalité">
+                </div>
+                <br>
+                <div>
+                    <label for="adresse">adresse</label>
+                    <input id="adresse" type="text" name="adresse" placeholder="Veuillez entrer votre adresse">
+                </div>
+                <br>
+                <div>
+                    <label for="code postal"> code postal</label>
+                    <input id="code postal" type="text" name="Prenom" placeholder="Veuillez entrer votre Prenom">
+                </div>
+                <br>
+                <div>
+                    <label for="ville">ville</label>
+                    <input id="ville" type="text" name="ville" placeholder="Veuillez entrer votre ville">
+                </div>
+                <br>
+                <div class="row">
+                    <div>
+                        <h3>
+                            Etat Civil:
+                        </h3>
+
+                    </div>
+                    <br>
+                    <div>
+                        <input type="checkbox" value="celibataire">celibataire
+                        <input type="checkbox" value="marié">marié
+                        <input type="checkbox" value="divorcé">divorcé
+                        <input type="checkbox" value="pacsé">pacsé
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <label for="telephone">telephone</label>
+                    <input id="telephone" type="text" name="telephone">
+
+                </div>
+                <br>
+                <div>
+                    <label for="e-mail">e-mail</label>
+                    <input id="e-mail" type="text" name="e-mail">
+
+                </div>
+                <br>
+                <div class="row">
+                    <h3>
+                        Diplome obtenu:
+                    </h3>
+                    <input type="checkbox" value="UNIVERSITAIRE">UNIVERSITAIRE
+                    <br>
+                    <input type="checkbox" value="BAC+2 et PLUS">BAC+2 et PLUS
+                    <br>
+                    <input type="checkbox" value="BAC">BAC
+                    <br>
+                    <input type="checkbox" value="AUTRE TITRE">AUTRE TITRE
+
+                </div>
+                <div class="row">
+                    <h3>
+                        Aviez vous déjà beneficié d'un stage AFPA?:
+                    </h3>
+                    <input type="checkbox" value="marié">marié
+                    <br>
+                    <input type="checkbox" value="divorcé">divorcé
+                    <br>
+                    <input type="checkbox" value="pacsé">pacsé
+                </div>
+                <br>
+                <div class="row">
+                    <h3>
+                        Statut:
+                    </h3>
+                    <input type="checkbox" value="Travailleur">Travailleur
+                    <br>
+                    <input type="checkbox" value="Demandeur d'emploi">demandeur d'emploi
+                    <br>
+                    <input type="checkbox" value="Autre">Autre
+                </div>
+                <br>
+                <div class="row">
+                    <h3>
+                        Financement:
+                    </h3>
+                    <input type="checkbox" value="Region">Region
+                    <br>
+                    <input type="checkbox" value="Pole emploi">Pole emploi
+                    <br>
+                    <input type="checkbox" value="Privé">Privé
+                </div>
+                <br>
+                <div class="row">
+                    <h3>
+                        Formation choisie:
+                    </h3>
+                    <select name="FORMATION DISPONIBLE">
+                        <option value="DEVELOPPEUR WEB ET WEB MOBILE"> DEVELOPPEUR WEB ET WEB MOBILE </option>
+                        <option value="FROID ET ELECTRICITE"> FROID ET ELECTRICITE</option>
+                        <option value="AUXILIAIRE DE VIE">AUXILIAIRE DE VIE</option>
+                        <option value="TECHNICIEN DE RESEAUX">AUXILIAIRE DE VIE</option>
+                        <option value="SOUDURE INDUSTRIELLE"> SOUDURE INDUSTRIELLE</option>
+                        <option value="MENUISERIE">MENUISERIE</option>
+                        <option value="GESTION DES AFFAIRES"> GESTION DES AFFAIRES</option>
+                        <option value="ASSISTANT MEDICAL"> ASSISTANT MEDICAL</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="ANNULEZ">
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="VALIDEZ">
+                </div>
+            </form>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>
